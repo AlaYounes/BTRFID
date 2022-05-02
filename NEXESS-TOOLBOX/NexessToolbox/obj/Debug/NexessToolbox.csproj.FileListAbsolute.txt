@@ -1,0 +1,8 @@
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\bin\NexessToolbox.dll.config
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\bin\NexessToolbox.dll
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\bin\NexessToolbox.pdb
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\bin\Newtonsoft.Json.dll
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\obj\Debug\NexessToolbox.csproj.CoreCompileInputs.cache
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\obj\Debug\NexessToolbox.csproj.CopyComplete
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\obj\Debug\NexessToolbox.dll
+E:\Ala\RFID\NEXESS-TOOLBOX\NexessToolbox\obj\Debug\NexessToolbox.pdb

@@ -1,0 +1,26 @@
+﻿<Window x:Class="RfidDeviceIntegrationTest.main.src.fr.nexess.hao.weight.reader.pcb12.Pcb12IntegrationTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pcb12IntegrationTest" Height="538" Width="770">
+    <Grid>
+        <Button Content="connect" Height="36" HorizontalAlignment="Left" Margin="15,12,0,0" Name="button1" VerticalAlignment="Top" Width="136" Click="button1_Click" />
+        <Button Content="start scan" Height="36" HorizontalAlignment="Left" Margin="157,12,0,0" Name="button2" VerticalAlignment="Top" Width="136" Click="button2_Click" />        
+        <Button Content="Stop Scan" Height="36" HorizontalAlignment="Left" Margin="299,12,0,0" Name="button3" VerticalAlignment="Top" Width="136" Click="button3_Click" />                                
+        <ListBox Height="246" HorizontalAlignment="Left" Margin="12,241,0,0" Name="listBox1" VerticalAlignment="Top" Width="724" />
+        <Button Content="get Weight" Height="36" HorizontalAlignment="Left" Margin="24,86,0,0" Name="button4" VerticalAlignment="Top" Width="136" Click="button4_Click" />
+        <Label Content="PCB12 @ : " HorizontalAlignment="Left" Margin="166,86,0,310" Name="label1" />
+        <Label Content="PAD # : " Height="28" HorizontalAlignment="Left" Margin="166,110,0,0" Name="label2" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="240,86,0,0" Name="comboBox1" VerticalAlignment="Top" Width="120" ItemsSource="{Binding}" />
+        <ComboBox Height="23" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="240,115,0,0" Name="comboBox2" VerticalAlignment="Top" Width="120" />
+        <GroupBox Header="get one weight async" Height="169" HorizontalAlignment="Left" Margin="15,66,0,0" Name="groupBox1" VerticalAlignment="Top" Width="358"></GroupBox>
+        <CheckBox Content="lire en boucle" Name="checkBox1" Margin="24,133,613,345" />
+        <Label Content="Kilogrammes" Height="25" Name="label5" Margin="176,201,493,273" />
+        <Button Content="Get Weight" Height="36" HorizontalAlignment="Left" Margin="390,78,0,0" Name="button5" VerticalAlignment="Top" Width="136" Click="button5_Click" />
+        <ComboBox Height="23" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="532,87,0,0" Name="comboBox3" VerticalAlignment="Top" Width="120" />
+        <Label Content="PCB12 @ : " HorizontalAlignment="Left" Margin="532,63,0,323" Name="label3" />
+        <ComboBox Height="23" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="532,12,0,0" Name="comboBox4" VerticalAlignment="Top" Width="204" />
+        <Label Content="Level : " HorizontalAlignment="Left" Margin="481,10,0,389" Name="label4" />
+        <TextBox Height="59" Name="textBox1" VerticalContentAlignment="Bottom" Margin="23,168,573,272" Text="X.XXX" FontSize="40" FontWeight="Bold" Foreground="#FFFFED18" Background="#FF030101" />
+        <Button Content="set ZERO" Height="36" Name="button6" Margin="240,168,388,295" Click="button6_Click" />
+    </Grid>
+</Window>

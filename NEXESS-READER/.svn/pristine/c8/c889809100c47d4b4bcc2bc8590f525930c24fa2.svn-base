@@ -1,0 +1,10 @@
+﻿<Window x:Class="RfidDeviceIntegrationTest.main.src.fr.nexess.hao.rfid.device.impinj.SpeedwayRevolutionIntegrationTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SpeedwayRevolutionIntegrationTest" Height="463" Width="770">
+    <Grid>
+        <Button Content="connect" Height="36" HorizontalAlignment="Left" Margin="12,71,0,0" Name="button1" VerticalAlignment="Top" Width="136" Click="button1_Click" />
+        <Button Content="start scan" Height="36" HorizontalAlignment="Left" Margin="154,71,0,0" Name="button2" VerticalAlignment="Top" Width="136" Click="button2_Click" />
+        <ListBox Height="282" HorizontalAlignment="Left" Margin="12,130,0,0" Name="listBox1" VerticalAlignment="Top" Width="724" />
+    </Grid>
+</Window>

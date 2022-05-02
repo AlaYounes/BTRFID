@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7C5E177-0500-4568-90F0-2A810CB4EB41}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NexessReader</RootNamespace>
+    <AssemblyName>NexessReader</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\video\Accord.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Video, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\video\Accord.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Video.FFMPEG, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\video\Accord.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyModbus, Version=2.6.6132.26384, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\EasyModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="Impinj.OctaneSdk, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\Impinj.OctaneSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="LLRP, Version=10.16.0.240, Culture=neutral, PublicKeyToken=450cec67a1cde3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\LLRP.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LLRP.Impinj, Version=10.16.0.240, Culture=neutral, PublicKeyToken=450cec67a1cde3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\LLRP.Impinj.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>main\lib\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OBIDISC4NET, Version=4.7.0.0, Culture=neutral, PublicKeyToken=900ed37a7058e4f2, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\OBIDISC4NET.dll</HintPath>
+    </Reference>
+    <Reference Include="OBIDISC4NETnative, Version=0.0.0.0, Culture=neutral, PublicKeyToken=900ed37a7058e4f2, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\OBIDISC4NETnative.dll</HintPath>
+    </Reference>
+    <Reference Include="OBIDISC4NET_API">
+      <HintPath>main\lib\OBIDISC4NET_API.dll</HintPath>
+    </Reference>
+    <Reference Include="STidReaderAPI">
+      <HintPath>main\lib\STidReaderAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TbUHFRFIDWrapper, Version=1.0.5486.29860, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\TbUHFRFIDWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="TechnologySolutions.Rfid.AsciiProtocol.Connections, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\TechnologySolutions.Rfid.AsciiProtocol.Connections.dll</HintPath>
+    </Reference>
+    <Reference Include="TechnologySolutions.Rfid.AsciiProtocol.Extensions.Std, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\TechnologySolutions.Rfid.AsciiProtocol.Extensions.Std.dll</HintPath>
+    </Reference>
+    <Reference Include="TechnologySolutions.Rfid.AsciiProtocol.Std, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\TechnologySolutions.Rfid.AsciiProtocol.Std.dll</HintPath>
+    </Reference>
+    <Reference Include="TechnologySolutions.Rfid.Operations.Std, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>main\lib\TechnologySolutions.Rfid.Operations.Std.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="main\src\fr\nexess\hao\reader\battery\device\autonomy\Autonomy.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\io\device\brainboxes\Ed588.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\optic\device\opticon\NLV3101.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\optic\eventhandler\OpticReaderEventProvider.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\optic\eventhandler\ReportAfterOpticalReadingEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\optic\OpticReader.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\Reader.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\video\CortexDecoder.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\video\StahlCamera.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\wireless\device\microchip\rn4871\rn4871.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\axesstmc\Legic904Rfid2.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\axesstmc\LegicFrameRebuilder.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\deister\prdi3.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\deister\prdi3FrameRebuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\elatec\Twn4FrameRebuilder.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\elatec\Twn4.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\feig\Cpr02_10_b.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\feig\Cpr02_10.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\feig\ICpr02_10_b.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\feig\ILru3x00.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\feig\ISC_LRU3500.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\feig\TagFoundObidEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\impinj\SpeedwayRevolution.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\mti\Ru_865.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\stid\SscpReader.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\stm\CR95.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\stm\CR95FrameRebuilder.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\tsl\Tsl1166.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\eventHandler\BatteryLevelUpdatedEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\eventHandler\HasReportedAnErrorEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\eventHandler\RFIDReaderEventProvider.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\device\impinj\TagFoundOctaneEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\eventHandler\TagFoundEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\eventHandler\CodeFoundEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\ConfigurableRfidDevice.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\ReaderInfo.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\RfidDevice.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\SustainableRfidDevice.cs" />
+    <Compile Include="main\src\fr\nexess\hao\rfid\TagWriter.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\weight\eventhandler\ReportAfterReadingEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\HasReportedAnErrorEventHandler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\weight\eventhandler\WeightReaderEventProvider.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\weight\device\pcb12\Pcb12Handler.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\weight\device\pcb12\Pcb12Protocol.cs" />
+    <Compile Include="main\src\fr\nexess\hao\reader\weight\WeightReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="main\res\" />
+    <Folder Include="main\src\fr\nexess\hao\rfid\device\motorola\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main\lib\EasyModbus.dll" />
+    <Content Include="main\lib\FeCom.dll" />
+    <Content Include="main\lib\fefu.dll" />
+    <Content Include="main\lib\FeIsc.dll" />
+    <Content Include="main\lib\fetcl.dll" />
+    <Content Include="main\lib\fetcp.dll" />
+    <Content Include="main\lib\feusb.dll" />
+    <Content Include="main\lib\Impinj.OctaneSdk.dll" />
+    <Content Include="main\lib\libeay32.dll" />
+    <Content Include="main\lib\LLRP.dll" />
+    <Content Include="main\lib\LLRP.Impinj.dll" />
+    <Content Include="main\lib\mfc110.dll" />
+    <Content Include="main\lib\msvcp110.dll" />
+    <Content Include="main\lib\msvcr110.dll" />
+    <Content Include="main\lib\OBIDISC4NET.dll" />
+    <Content Include="main\lib\OBIDISC4NETnative.dll" />
+    <Content Include="main\lib\STidReaderAPI.dll" />
+    <Content Include="main\lib\TbUHFRFIDWrapper.dll" />
+    <Content Include="main\lib\TechnologySolutions.Rfid.AsciiProtocol.Connections.dll" />
+    <Content Include="main\lib\TechnologySolutions.Rfid.AsciiProtocol.Extensions.Std.dll" />
+    <Content Include="main\lib\TechnologySolutions.Rfid.AsciiProtocol.Std.dll" />
+    <Content Include="main\lib\TechnologySolutions.Rfid.Operations.Std.dll" />
+    <Content Include="main\lib\video\Accord.dll" />
+    <Content Include="main\lib\video\Accord.Video.dll" />
+    <Content Include="main\lib\video\Accord.Video.FFMPEG.dll" />
+    <Content Include="main\lib\video\avcodec-57.dll" />
+    <Content Include="main\lib\video\avdevice-57.dll" />
+    <Content Include="main\lib\video\avfilter-6.dll" />
+    <Content Include="main\lib\video\avformat-57.dll" />
+    <Content Include="main\lib\video\avutil-55.dll" />
+    <Content Include="main\lib\video\postproc-54.dll" />
+    <Content Include="main\lib\video\swresample-2.dll" />
+    <Content Include="main\lib\video\swscale-4.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main\conf\log4Net.conf" />
+    <Content Include="main\lib\log4net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NEXESS-TOOLBOX\NexessToolbox\NexessToolbox.csproj">
+      <Project>{6d95e6b2-38e9-4039-9495-d4a90f209b8f}</Project>
+      <Name>NexessToolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>RMDIR /Q /S "$(OutDir)"</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y /D "$(ProjectDir)main\lib\*.dll" "."
+xcopy /Y /D "$(ProjectDir)main\lib\video\*.dll" "."
+mkdir data conf
+xcopy /Y /D "$(ProjectDir)main\data\*" ".\data"
+xcopy /Y /D "$(ProjectDir)main\conf\*" ".\conf"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

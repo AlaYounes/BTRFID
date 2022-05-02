@@ -1,0 +1,12 @@
+﻿<Window x:Class="RfidDeviceIntegrationTest.main.src.fr.nexess.hao.optic.device.opticon.NLV3101Integrationtest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ru_865Integrationtest" Height="463" Width="770" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="connect" Height="36" HorizontalAlignment="Left" Margin="15,12,0,0" Name="button1" VerticalAlignment="Top" Width="136" Click="button1_Click" />
+        <Button Content="start scan" Height="36" HorizontalAlignment="Left" Margin="157,12,0,0" Name="button2" VerticalAlignment="Top" Width="136" Click="button2_Click" />
+        <ListBox Height="282" HorizontalAlignment="Left" Margin="12,130,0,0" Name="listBox1" VerticalAlignment="Top" Width="724" />
+        <Button Content="Stop scan" Height="36" HorizontalAlignment="Left" Margin="299,12,0,0" Name="button3" VerticalAlignment="Top" Width="136" Click="button3_Click" />
+        <Button Content="clear list" Height="36" HorizontalAlignment="Left" Margin="583,54,0,0" Name="button9" VerticalAlignment="Top" Width="136" Click="button9_Click" />
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="RfidDeviceIntegrationTest.main.src.fr.nexess.hao.rfid.device.mti.Ru_865Integrationtest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ru_865Integrationtest" Height="463" Width="770" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Content="connect" Height="36" HorizontalAlignment="Left" Margin="15,12,0,0" Name="button1" VerticalAlignment="Top" Width="136" Click="button1_Click" />
+        <Button Content="start scan" Height="36" HorizontalAlignment="Left" Margin="157,12,0,0" Name="button2" VerticalAlignment="Top" Width="136" Click="button2_Click" />
+        <ListBox Height="282" HorizontalAlignment="Left" Margin="12,130,0,0" Name="listBox1" VerticalAlignment="Top" Width="724" />
+        <Button Content="Stop scan" Height="36" HorizontalAlignment="Left" Margin="299,12,0,0" Name="button3" VerticalAlignment="Top" Width="136" Click="button3_Click" />
+        <Button Content="Get power" Height="36" HorizontalAlignment="Left" Margin="441,12,0,0" Name="button4" VerticalAlignment="Top" Width="136" Click="button4_Click" />
+        <Button Content="Set power" Height="36" HorizontalAlignment="Left" Margin="441,54,0,0" Name="button5" VerticalAlignment="Top" Width="136" Click="button5_Click" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="604,19,0,0" Name="textBox1" VerticalAlignment="Top" Width="111" />
+        <Button Content="inventory scan" Height="36" HorizontalAlignment="Left" Margin="15,54,0,0" Name="button6" VerticalAlignment="Top" Width="136" Click="button6_Click" />
+        <Button Content="triggered scan" Height="36" HorizontalAlignment="Left" Margin="157,54,0,0" Name="button7" VerticalAlignment="Top" Width="136" Click="button7_Click" />
+        <Button Content="continuous scan" Height="36" HorizontalAlignment="Left" Margin="299,54,0,0" Name="button8" VerticalAlignment="Top" Width="136" Click="button8_Click" />
+        <Button Content="clear list" Height="36" HorizontalAlignment="Left" Margin="583,54,0,0" Name="button9" VerticalAlignment="Top" Width="136" Click="button9_Click" />
+    </Grid>
+</Window>
